@@ -32,6 +32,15 @@ soma(n1, n2, n3)
 3 - crie uma função que receba 2 numeros. o primeiro é um valor e o segundo um percentual (ex 10%), 
 retorne (return) o valor do primeiro número somado do aumento do perce3ntual do mesmo.
 """
+n1 = int(input("digite umnúmero")) 
+n2 = int(input('digite um percentual (ex: para 10% digite 10'))
+
+def percentual(n1, n2):
+  total = (n1+((n2/100)*n1))
+  print(total)
+
+percentual(n1, n2)
+
 
 
 """
